@@ -10,7 +10,7 @@
 <body>
     
 <h2>Log In </h2>
-//Login Form
+<!--Login Form-->
 <form action="#" id="LoginForm" method="post">
 <label for="name">Username:</label>
 <input type="text" id="name"name="name" placeholder="Enter Username" required>
@@ -21,7 +21,7 @@
 <button type="submit">Submit</button>
 </form>
 
-// Validate username and password
+<!--Validate username and password-->
 <script>
 document.getElementById("LoginForm").onsubmit = function(e){
 if(document.getElementById("name").value !=="princes"){
