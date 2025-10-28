@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    // Registration Form
+    <!--// Registration Form-->
     <h2>Registration Form</h2>
-    <form action="#" id="RegistrationForm" method="post">
+    <form action="index.php" id="RegistrationForm" method="post">
         <label for="name">Username:</label>
         <input type="text" id="name" name="name" placeholder="Enter Username" required>
         <br> <br>
@@ -26,7 +26,7 @@
         <button type="submit">Submit</button>
     </form>
 
-    // Validate password and confirm password match
+    <!--Validate password match-->
     <script>
         document.getElementById("RegistrationForm").onsubmit = function (e) {
             if (document.getElementById("password").value !== document.getElementById("ConfirmPassword").value) {
